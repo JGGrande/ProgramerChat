@@ -1,6 +1,6 @@
 import { app, serverHttp, io } from "./config/server.js";
 
-serverHttp.listen(80, () => { console.log("Server is Runing: http://localhost:80") })
+serverHttp.listen(3000, () => { console.log("Server is Runing: http://localhost:3000") })
 
 
 io.on("connection", socket => {
