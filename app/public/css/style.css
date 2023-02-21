@@ -1,7 +1,7 @@
 body {
-	background: rgb(66, 80, 96);
 	background: linear-gradient(144deg, rgba(66, 80, 96, 1) 10%, rgba(41, 43, 46, 1) 87%);
-	background-repeat: no-repeat;
+	/*background: rgba(41, 43, 46, 1);*/
+	background-repeat: repeat-y;
 	height: 100vh;
 }
 
@@ -42,7 +42,10 @@ body {
 .navbar {
 	background-color: white;
 	border: 0;
+
 }
+
+
 
 .panel {
 	margin-bottom: 20px;
